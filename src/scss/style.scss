@@ -1,0 +1,134 @@
+*{box-sizing: border-box;}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    
+
+    .box_menu {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0%;
+        
+
+        .menu_top {
+            display: grid;
+            grid: 50% 50% / 50% 50%;
+            grid-template-areas:
+            "top_espresso top_filter"
+            "top_espresso top_special";
+            height: 20em;
+            width: 60%;
+            margin: 0%;
+            .top_espresso{
+                grid-area: top_espresso;
+            }
+            .top_filter {
+                grid-area: top_filter;
+            }
+            .top_special {
+                grid-area: top_special;
+            }
+            
+
+
+            .top {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                height: 40%;
+                margin: 1em 0;
+                
+
+                .item {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 50%;
+                    margin: 0%;
+
+                    .menu_top {
+            display: grid;
+            grid: 50% 50% / 50% 50%;
+            grid-template-areas:
+            "top_espresso top_filter"
+            "top_espresso top_special";
+            height: 20em;
+            width: 60%;
+            margin: 0%;
+            .top_espresso{
+                grid-area: top_espresso;
+            }
+            .top_filter {
+                grid-area: top_filter;
+            }
+            .top_special {
+                grid-area: top_special;
+            }
+            
+
+
+            .top {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                height: 40%;
+                margin: 1em 0;
+                
+
+                .item {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 50%;
+                    margin: 0%;
+            
+                .mid_menu {
+                    display: grid;
+                    grid: 50% 50% / 50% 50%;
+                    grid-template-areas:
+                    "mid_espresso mid_filter"
+                    "mid_espresso mid_special";
+                    height: 20em;
+                    width: 60%;
+                    margin: 0%;
+                    .mid_espresso{
+                        grid-area: top_espresso;
+                    }
+                    .mid_filter {
+                        grid-area: top_filter;
+                    }
+                    .mid_special {
+                        grid-area: top_special;
+                    }
+        
+                    .mid {
+                        display: flex;
+                        flex-direction: column;
+                        width: 50%;
+                        height: 40%;
+                        margin: 1em 0;
+                        
+        
+                        .item {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            width: 50%;
+                            margin: 0%;
+                  
+                    h4 {
+                        margin: 0%;
+                    }
+                }
+            }
+        }
+
+    }
+}
