@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    header {
+        background-color: rgb(248, 249, 250);
+        width: 100%;
+        height: 12em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0%;
+        .logo {
+            img {
+                height: 10em;
+                margin: 1em 10em 1em 10em;
+            }
+        }
+        nav {
+            margin: 4em 20em 4em 10em;
+            a {
+                color:rgb(198, 199, 200) ;
+                text-decoration: none;
+                margin: 0 2em;
+                transition: color 1s;
+
+                &.current_page {
+                    color: black;
+                }
+            }
+            a:hover {
+                color: black;
+            }   
+        }
+    }
+    .box_story {
+        width: 80%;
+        height: 55em;
+        margin: 0% 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            align-self: flex-start;
+        }
+
+        .story_info {
+            width: 60%;
+            align-self: flex-start;
+        }
+        
+        .story_founders {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            height: 50%;
+            
+            .found {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 40%;
+                img {
+                   max-width: 50%;
+                   height: auto;
+                   border-radius: 50%;
+                }
+            }
+        } 
+       
+    }
+        
+
+    footer {
+        background-color: rgb(52, 58, 64);
+        width: 100%;
+        height: 20em;
+        display: flex;
+        flex-direction: column;
+        color: rgb(198, 199, 200) ;
+        nav {
+            text-align: center;
+            margin: 4em 20em 4em 10em;
+            a {
+                text-align: center;
+                margin: 0 3em;
+                transition: color 1s;
+                &.current_page {
+                    color: rgb(198, 199, 200) ;
+                    text-decoration: none;
+                }
+            }
+            a:hover {
+                color: rgb(198, 199, 200) ;
+            }       
+        }
+        .moto {
+            text-align: center;
+            margin: 0%;
+            h3 {
+                font-weight: 900;
+            }   
+        }      
+    }
+}
